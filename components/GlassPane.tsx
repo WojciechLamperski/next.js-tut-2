@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-const GlassPane = ({ children }) => {
+const GlassPane = ({ children, className }) => {
   return (
     <div
       className={clsx(
@@ -12,3 +12,5 @@ const GlassPane = ({ children }) => {
     </div>
   );
 };
+
+export default GlassPane;
