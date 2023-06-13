@@ -11,6 +11,7 @@ export default function AuthRootLayout({ children }) {
           <Sidebar />
           {children}
         </GlassPane>
+        <div id="modal"></div>
       </body>
     </html>
   );
